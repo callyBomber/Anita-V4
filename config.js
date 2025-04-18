@@ -9,8 +9,8 @@ global.channelname = process.env.CHANNEL_NAME || "𝐃𝐀𝐕𝐈𝐃 𝐂𝐘�
 global.channeljid = process.env.CHANNEL_JID || "120363315231436175@newsletter";
 global.autoTyping = process.env.AUTO_TYPING === 'true'; 
 global.autoRecord = process.env.AUTO_RECORD === 'true';
-global.autoViewStatus = process.env.AUTO_VIEW_STATUS === 'true';
-global.AUTOSTATUS_REACT = process.env.AUTOSTATUS_REACT === 'true';
+global.autoViewStatus = process.env.AUTO_VIEW_STATUS === 'false';
+global.AUTOSTATUS_REACT = process.env.AUTOSTATUS_REACT === 'false';
 global.autoLikeEmoji = process.env.AUTO_LIKE_EMOJI || "💚";
 
 global.LEVELUP = process.env.LEVELUP === 'true';
@@ -40,14 +40,14 @@ global.autoreact = process.env.AUTO_REACT === 'true';
 
 global.WELCOME = process.env.WELCOME === 'true';
 
-global.prefix = process.env.PREFIX || '.';
+global.prefix = process.env.PREFIX || '~';
 
 global.autobio = process.env.AUTO_BIO === 'true';
 
 global.ANTICALL = process.env.ANTICALL === 'true';
 
-global.antilink = process.env.ANTILINK === 'true';
-global.antilinkkick = process.env.ANTILINK_KICK === 'true';
+global.antilink = process.env.ANTILINK === 'false';
+global.antilinkkick = process.env.ANTILINK_KICK === 'false';
 global.antilinkwarn = process.env.ANTILINK_WARN === 'true';
 
 global.mess = {
